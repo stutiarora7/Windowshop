@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 200%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing:border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	margin:0 60px;
+} 
+.header{
+display:inline-block;
+width:100%;
+float:left;
+height:60px;
+padding:30px 0 25px;
+}
+.header .menu{
+float:left;
+margin-left:200px;
+}
+.menu ul li{
+display:inline-block;
+margin-right:30px;
+}
+.menu ul li a{
+text-decoration:none;
+color:#52575d;
+font-size: 20px;
+font-weight:700;
+}
+.header .cart{
+float:right-side;
+
+}
+.slider{
+	display:inline-block;
+	width:100%;
+	float:left;
+	position:relative;
+}
+.slider img{
+	max-width:100%;
+}
+.slider .slider-text{
+	  width:500px;
+	  position:absolute;
+	  top:10%;
+	  bottom:0;
+	  left:60px;
+}
+.slider .slider-text h1{
+font-size:100px;
+color:#222222;
+font-family: Tw Cen MT;
+}
+.slider .slider-text p{
+font-size:50px;
+color:#222222;
+padding:10px 0;
+line-height:22px;
+}	
+.slider .slider-text  input[type="submit"]
+{
+	border: none;
+	outline:none;
+	height:40px;
+	background:#c824f7;
+	color:#fff;
+	font-size:20px;
+	border-radius:20px;
+}
+.slider .slider-text input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.slider .slider-text a{
+	text-decoration:none;
+	font-size: 20px;
+	line-height:20px;
+	color:darkgrey;
+}
+.slider .slider-text a:hover{
+	color: #ffc107;
+}
+
